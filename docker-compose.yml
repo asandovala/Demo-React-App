@@ -1,0 +1,14 @@
+version: "3.6"
+
+services:
+    pokeapp:
+        container_name: front
+        build: ./
+        volumes:
+            - ./:/pokeapp
+            - /pokeapp/node_modules
+        command: npm start
+        working_dir: /pokeapp
+        ports:
+            - "3000:3000"
+        stdin_open: true
