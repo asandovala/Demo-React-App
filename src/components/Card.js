@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import CardDetail from './CardDetail';
 import Modal from './Modal';
+import logo from '../res/img/pokeicon.png';
+import { capitalizeFirstLetter } from '../api/api'
 
 class Card extends Component {
   constructor (props) {
@@ -37,10 +39,14 @@ class Card extends Component {
     ) : null;
 
     return (
-      <div className='tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5'>
-        <div id={pokemon_number} onClick={this.showDetail}>
-          <h2>{name}</h2>
-          <p>{pokemon_number + 1}</p>
+      <div className='dib'>
+        <div id={pokemon_number} onClick={this.showDetail} className='dib'>
+          <div className='tc grow br3 pa3 ma2 dib bw2' style={{ maxWidth: 200 }}>
+            <img src={logo} alt={pokemon_number + 1} className="dib"/><br/>
+            <div className='bg-light-green br3 pa2 dib poketext'>
+              <span>{capitalizeFirstLetter(name)}</span>
+            </div>
+          </div>
         </div>
         {modal}
       </div>

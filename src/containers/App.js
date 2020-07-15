@@ -8,6 +8,7 @@ import Scroll from '../components/Scroll';
 import ErrorBoundry from '../components/ErrorBoundry';
 
 import './App.css';
+import '../res/css/loading.css'
 
 // parameter state comes from index.js provider store state(rootReducers)
 const mapStateToProps = (state) => {
@@ -39,10 +40,10 @@ class App extends Component {
     })
     return (
       <div className='tc'>
-        <h1 className='f1'>PokeApp</h1>
+        <div className='appTitle'>PokéApp</div>
         <SearchBox searchChange={onSearchChange}/>
         <Scroll>
-          { isPending ? <h1>Loading</h1> :
+          { isPending ? <div className="lds-ring"><div></div><div></div><div></div><div></div></div> :
             <ErrorBoundry>
               <CardList pokemons={filteredPokemons} />
             </ErrorBoundry>
