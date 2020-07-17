@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.4fecd9c3.chunk.css",
-    "main.js": "/static/js/main.3eebc1cb.chunk.js",
-    "main.js.map": "/static/js/main.3eebc1cb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bc196360.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bc196360.js.map",
-    "static/css/2.3c03f26f.chunk.css": "/static/css/2.3c03f26f.chunk.css",
-    "static/js/2.d974d973.chunk.js": "/static/js/2.d974d973.chunk.js",
-    "static/js/2.d974d973.chunk.js.map": "/static/js/2.d974d973.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.612131ae1acd4abdd69d328e37cc872f.js": "/precache-manifest.612131ae1acd4abdd69d328e37cc872f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.3c03f26f.chunk.css.map": "/static/css/2.3c03f26f.chunk.css.map",
-    "static/css/main.4fecd9c3.chunk.css.map": "/static/css/main.4fecd9c3.chunk.css.map",
-    "static/js/2.d974d973.chunk.js.LICENSE.txt": "/static/js/2.d974d973.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/pokemonfirered.b7bf14d6.woff",
-    "static/media/pokeicon.png": "/static/media/pokeicon.4e2bf2b3.png"
+    "main.css": "/Demo-React-App/static/css/main.550792b9.chunk.css",
+    "main.js": "/Demo-React-App/static/js/main.f9d8da16.chunk.js",
+    "main.js.map": "/Demo-React-App/static/js/main.f9d8da16.chunk.js.map",
+    "runtime-main.js": "/Demo-React-App/static/js/runtime-main.55821e9c.js",
+    "runtime-main.js.map": "/Demo-React-App/static/js/runtime-main.55821e9c.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/Demo-React-App/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.d974d973.chunk.js": "/Demo-React-App/static/js/2.d974d973.chunk.js",
+    "static/js/2.d974d973.chunk.js.map": "/Demo-React-App/static/js/2.d974d973.chunk.js.map",
+    "index.html": "/Demo-React-App/index.html",
+    "precache-manifest.156bdd6306f23dcd8568ccb7a69ddcef.js": "/Demo-React-App/precache-manifest.156bdd6306f23dcd8568ccb7a69ddcef.js",
+    "service-worker.js": "/Demo-React-App/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/Demo-React-App/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.550792b9.chunk.css.map": "/Demo-React-App/static/css/main.550792b9.chunk.css.map",
+    "static/js/2.d974d973.chunk.js.LICENSE.txt": "/Demo-React-App/static/js/2.d974d973.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Demo-React-App/static/media/pokemonfirered.b7bf14d6.woff",
+    "static/media/pokeicon.png": "/Demo-React-App/static/media/pokeicon.4e2bf2b3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc196360.js",
+    "static/js/runtime-main.55821e9c.js",
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.d974d973.chunk.js",
-    "static/css/main.4fecd9c3.chunk.css",
-    "static/js/main.3eebc1cb.chunk.js"
+    "static/css/main.550792b9.chunk.css",
+    "static/js/main.f9d8da16.chunk.js"
   ]
 }
